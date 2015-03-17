@@ -1,0 +1,19 @@
+{
+  "name": "Twilio STUN/TURN",
+  "description": "A template for web server with API endpoint to get Twilio STUN/TURN data",
+  "keywords": ["node", "express", "twilio", "stun", "turn", "webrtc", "ice servers"],
+  "success_url": "/",
+  "repository": "https://github.com/hashobject/twilio-stun-turn",
+  "addons": [],
+  "env": {
+    "NODE_ENV": "production",
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio Account SID (find it on https://www.twilio.com/user/account/settings)",
+      "required": true
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio Auth Token (find it on https://www.twilio.com/user/account/settings)",
+      "required": true
+    }
+  }
+}

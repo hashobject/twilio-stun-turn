@@ -1,0 +1,33 @@
+{
+  "name": "twilio-stun-turn",
+  "version": "0.1.0",
+  "description": "Express web-server with API endpoint to get Twilio STUN/TURN data",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.12.2",
+    "twilio": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hashobject/twilio-stun-turn.git"
+  },
+  "keywords": [
+    "heroku",
+    "express",
+    "twilio",
+    "stun",
+    "turn",
+    "webrtc",
+    "ice servers"
+  ],
+  "author": "hashobject team (team@hashobject.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashobject/twilio-stun-turn/issues"
+  },
+  "homepage": "https://github.com/hashobject/twilio-stun-turn"
+}
