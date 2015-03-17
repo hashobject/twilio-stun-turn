@@ -14,6 +14,10 @@
     "TWILIO_AUTH_TOKEN": {
       "description": "Your Twilio Auth Token (find it on https://www.twilio.com/user/account/settings)",
       "required": true
+    },
+    "ALLOWED_ORIGIN": {
+      "description": "Allowed origin to request / endpoint (see https://www.npmjs.com/package/express-cors for options)",
+      "value": "*"
     }
   }
 }
