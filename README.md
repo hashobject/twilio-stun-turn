@@ -8,7 +8,20 @@ Twilio provides STUN/TURN servers (https://www.twilio.com/stun-turn) that can be
 
 ### Server
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy).
+
+Or just clone this project and run
+
+```
+  npm install
+```
+
+and
+
+```
+  npm start
+```
+
 
 ### Client
 
